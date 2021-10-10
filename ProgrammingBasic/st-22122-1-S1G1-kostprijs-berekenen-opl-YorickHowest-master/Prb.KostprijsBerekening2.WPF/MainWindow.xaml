@@ -1,0 +1,22 @@
+﻿<Window x:Class="Prb.KostprijsBerekening2.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Methoden2.KostprijsBerekening2.WPF"
+        mc:Ignorable="d"
+        Title="Kostprijsberekening versie 2" Height="295" Width="391"
+        >
+    <Grid>
+        <Label Content="Dagprijs : " HorizontalAlignment="Left" Margin="25,22,0,0" VerticalAlignment="Top"/>
+        <Label Content="Aantal dagen : " HorizontalAlignment="Left" Margin="25,70,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDagPrijs" HorizontalAlignment="Left" Margin="150,29,0,0" Text="14,753" TextAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Top" Width="72" Height="19"/>
+        <TextBox x:Name="txtAantalDagen" HorizontalAlignment="Left" Margin="150,77,0,0" Text="2" TextAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Top" Width="72" Height="19"/>
+        <Button x:Name="btnBerekenTotaalprijs" Content="Bereken totaalprijs" HorizontalAlignment="Left" Height="35" Margin="150,140,0,0" VerticalAlignment="Top" Width="124" Click="btnBerekenTotaalprijs_Click"/>
+        <Label Content="Totaalprijs : " HorizontalAlignment="Left" Margin="25,195,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblTotaalPrijs" Content="" HorizontalAlignment="Left" Margin="190,195,0,0" VerticalAlignment="Top"/>
+        <Slider x:Name="sldAantalDagen" Minimum="1" Maximum="10" Value="2" SmallChange="1" LargeChange="1" HorizontalAlignment="Left" Height="24" Margin="150,101,0,0" VerticalAlignment="Top" Width="124" ValueChanged="sldAantalDagen_ValueChanged"/>
+
+    </Grid>
+
+</Window>

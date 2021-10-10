@@ -1,0 +1,26 @@
+﻿<Window x:Class="Prb.Inleiding.ControlsAndEvents.wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prb.Inleiding.ControlsAndEvents.wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="470" Width="352">
+    <Grid>
+        <Label Content="All about tht GUI" HorizontalAlignment="Stretch" Margin="5
+               " VerticalAlignment="Top" Background="#FFC9B7F0"/>
+        <Label Content="Lesuur :" HorizontalAlignment="Left" Margin="0,35,0,0" VerticalAlignment="Top"/>
+        <Label Content="Dag van de week :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,80,0,0"/>
+        <Label Content="Naam module :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,212,0,0"/>
+        <TextBox x:Name="txtLesUur" HorizontalAlignment="Left" Margin="170,35,0,0" Text="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtDagVanDeWeek" HorizontalAlignment="Left" Margin="170,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtModuleNaam" HorizontalAlignment="Left" Margin="170,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Margin="5,258,5,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="134" Background="#FF6EDE9C"/>
+        <Button x:Name="btnScenario1" Content="Vat Samen 1" HorizontalAlignment="Left" Margin="11,404,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnScenario2" Content="Vat samen 2" HorizontalAlignment="Left" Margin="136,404,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnScenario3" Content="Vat samen 3" HorizontalAlignment="Left" Margin="256,404,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cmbLesUur" HorizontalAlignment="Left" Margin="170,58,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cmbLesUur_SelectionChanged"/>
+        <ListBox x:Name="lstDagVanDeWeek" HorizontalAlignment="Left" Margin="170,107,0,0" VerticalAlignment="Top" Width="120" Height="100"/>
+
+    </Grid>
+</Window>

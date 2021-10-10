@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Prb.Inleiding.ControlsAndEvents.wpf/1.0.0": {
+        "runtime": {
+          "Prb.Inleiding.ControlsAndEvents.wpf.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Prb.Inleiding.ControlsAndEvents.wpf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
