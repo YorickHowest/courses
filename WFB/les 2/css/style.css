@@ -1,0 +1,11 @@
+body{
+background-color: darkmagenta;
+}
+
+.orange{
+    background-color: orange;
+}
+
+div p .orange{
+    background-color: darkorange;
+} 

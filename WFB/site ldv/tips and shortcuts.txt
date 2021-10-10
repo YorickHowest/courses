@@ -1,0 +1,7 @@
+index.html
+
+!  + enter = basiscode
+
+alt + b = openen in live server
+
+adobe color wheel to select color 
